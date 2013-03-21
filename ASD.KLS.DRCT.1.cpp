@@ -134,7 +134,7 @@ void foo(int n){
 		}
 	}
 	
-	Sehingga berdasasr ilustasi diatas, maka nilai "x" adalah angka terkecil atau
+	Sehingga berdasar ilustasi diatas, maka nilai "x" adalah angka terkecil atau
 	dapat juga dikatakan fungsi akan mencetak angka pada bagian fungsi yang paling
 	dalam.
 	
@@ -168,7 +168,7 @@ void foo2(int n){
 
 	1. "foo2(3)" akan mencetak angka terbesar karena "foo2(n - 1)" berada di
 	   paling bawah.
-	2. "foo2(2)" akan mencetak angka 4, karena "x = 2 * 2".
+	2. "foo2(n-1)" akan mencetak angka 4, karena "x = 2 * n".
 	3. selanjutnya... saya bingung :D, oleh karena itu kembali ke no-2
 
 */
