@@ -7,11 +7,11 @@
 using namespace std;
 
 class Persegi{
-float sisi;
+	float sisi;
 
-  public:
-		void InputData();
-		void TampilData();
+  	public:
+  	void InputData();
+	void TampilData();
 };
 
 void Persegi::InputData(){
@@ -28,8 +28,8 @@ class Segitiga{
     float alas, tinggi;
 
     public:
-        void InputData2();
-        void TampilData2();
+    void InputData2();
+    void TampilData2();
 };
 
 void Segitiga::InputData2(){
