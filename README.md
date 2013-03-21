@@ -1,3 +1,6 @@
-UIN Sunan Kalijaga - iEngineering v.12R Repository
+-------------------- Repository of iFree --------------------
+( Informatics Engineering 2012 UIN Sunan Kalijaga Yogyakarta )
 
-https://www.facebook.com/groups/IE12SK/
+Official FB Groups
+    https://www.facebook.com/groups/IE12SK/
+    
