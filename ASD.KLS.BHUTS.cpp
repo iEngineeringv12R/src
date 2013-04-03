@@ -9,6 +9,8 @@ selesaikan oeleh function2
 hasil deret { 4, 8, 36, 16, 100 }
 */
 
+// RASA MIT
+
 #include <iostream>
 using namespace std;
 
