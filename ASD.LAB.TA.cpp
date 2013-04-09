@@ -1,41 +1,69 @@
 /*
-  Input nilai mahasiswa dengan kalkulasi sbb:
-    responsi: 20%
-    uts: 40%
-    uas: 40%
-  
-  gunakan function & pointer
+                      `
+                     ://s
+                            `/ooo//+os
+          ::::://///o:  ///////++++++++++++
+      //::/+////////+yy///+++++++++++++++++++/
+    +oo://++:---////ohd/++oys             -++++
+    /oyy         //+ysy/++s+
+                //+osy:/+++o/
+               +/++hdh  +++/o
+               /++hdd//  ++++:
+              /++yhh/++yh`++++++o+oo+
+             :/+yss /++ydh /++++++++++++++-
+            +/+syy  /++ydo  o+++oh   y++++++s
+           +///sy   +++oho    ++++:-
+       `o/:/+/oo     /+ohh     +++++++o-
+       :////+-`      /++yh       /++++++/
+       ////+-        o/+ss        ./+++++d
+       //+:           +/:s          //+++:
+    ``.-:/::                          `+/+`
+
+                .-CODING TEAM-.
++_______________________________________________________+
+
+  QUEST::
+  Input nilai beberapa mahasiswa dengan kalkulasi sbb:
+      responsi: 20%
+      uts: 40%
+      uas: 40%
+  gunakan function & pointer !
++_______________________________________________________+
+
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-float r, t, s;
-float total;
+float nRES, nUTS, nUAS, nAKHIR;
+float *PnAKHIR;
 
 void input(){
-    cout<<  "Responsi : ";  cin>>r;
-    cout<<  "UTS      : ";  cin>>t;
-    cout<<  "UAS      : ";  cin>>s;
-
+    cout << "RESPONSI : ";  cin >> nRES;
+    cout << "UTS      : ";  cin >> nUTS;
+    cout << "UAS      : ";  cin >> nUAS;
 }
+
 void output(){
-    total = ( (r * 20)/100 ) + ( (t * 40)/100 ) + ( (s * 40 )/100 );
-    cout<<  "N.Akhir  : "    <<total;
+     PnAKHIR = &nAKHIR;
+    *PnAKHIR = (nRES *0.2) + (nUTS * 0.4) + (nUAS * 0.4);
+
+    cout << "N.Akhir  : " << nAKHIR;
 }
 
 main(){
-int mhs, i;
+    int mhs, i;
+    cout << "Jumlah Mahasiswa : ";cin>>mhs;
 
-    cout<<  "Jumlah Mahasiswa : ";  cin>>mhs;
+     for(i=0 ; i<mhs ; i++){
+        cout << "______________________"  << endl;
+        cout << "Nilai Mahasiswa ke-" <<i+1 << endl;
 
-        for(i=0 ; i<mhs ; i++){
-            cout<<  "\nNilai Mahasiswa ke-"<<i+1<<endl;
+        input();
+        output();
 
-            input();
-            output();
         cout<<endl;
-        }
-
-    cout<<endl;
+    }
 }
+
+//afhamz auditore
